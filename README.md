@@ -54,14 +54,14 @@ Once you replace it, rename it from CLOVER Install to, "Clover"
 Now that the bootloader's done, we need to get the Mojave installer on the SSD.
 Go back to terminal and input this line:
 
-# copy installer image
+**copy installer image**
 Now we already dragged the installer into the applications folder, but if you missed that, do it now.
 
 **sudo "/Applications/Install macOS Mojave.app/Contents/Resources/createinstallmedia" --volume /Volumes/install_osx --nointeraction**
 
 Then rename it with the line:
 
-# rename
+**rename**
 
 **sudo diskutil rename "Install macOS Mojave" install_osx**
 
