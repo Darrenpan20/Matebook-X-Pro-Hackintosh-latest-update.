@@ -72,8 +72,8 @@ Then rename it with the line:
 **sudo diskutil rename "Install macOS Mojave" install_osx**
 
 Now Turn off Safe Boot on your Matebook and boot Clover. 
-Now you want to use your arrow keys to move to the partition named 'install_osx" 
-Click Disk Utility and reformat the SSD/Hard drive to "Mac OS X Extended (Journaled)"
+Now you want to use your arrow keys to move to the partition named **"install_osx"**
+Click Disk Utility and reformat the SSD/Hard drive to **"Mac OS X Extended (Journaled)"**
 
 Once it reboots, choose **Boot macOS install from (Your Partition name)** to finish up the install.
 
