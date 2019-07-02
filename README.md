@@ -29,11 +29,15 @@ Next you will need to put these lines into terminal.
 
 **diskutil partitionDisk /dev/disk1 2 MBR FAT32 "CLOVER EFI" 200Mi HFS+J "install_osx" R**
 
+-----------------------------------------------------
 Now, we will make the bootloader using this program: https://sourceforge.net/projects/cloverefiboot/
+
 
 First, click **"Change Install Location"** and change it to **"CLOVER EFI".**
 
+
 Now, click **"Customize"**
+
 
 You need to select the following:
 **"Install for UEFI booting only"**
@@ -44,8 +48,10 @@ Under **Drivers64UEFI** we need to select the following:
 **ApfsDriverLoader-64.efi**
 **VboxHfs-64.efi**
 
+
 After your done with these, select "Install"
 
+-----------------------------------------------------------------------------------------
 When it is done installing, open up the partition on the USB named **"CLOVER EFI"**
 We are going to replace the whole folder named **"CLOVER"** with the **CLOVER** from this link:
 **BE SURE TO COPY AND PASTE THE CLOVER THAT SAY'S "CLOVER INSTALL"**
